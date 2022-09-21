@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>Amin</title>
+  </head>
+  <body>
+    <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+          <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
+          <li><a class="nav-link scrollto" href="#services">SERVICES</a></li>
+          <li><a class="nav-link scrollto " href="#order">ORDER NOW</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#reach">Reach Us<i class="bi bi-geo-alt"></i>
+          </a></li>
+          <li><a class="nav-link scrollto" href="">190398384848<i class="bi bi-telephone-fill"></i></a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+  
+    </header><!-- End Header -->
+    <section id="hero">
+      <div class="hero-container">
+        <h1>THARAVADU</h1>
+        <h2>Experience the real taste of Kozhikode</h2>
+        <div class="d-inline-block ps-2">
+        <button class="btn btn-success" onclick="document.getElementById('id01').style.display='block'">LOGIN</button>
+      <button class="btn btn-success"  onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+      </div>
+        <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bi bi-arrow-down"></i></a>
+      </div>
+    </section>
+    
+    <!-- End Hero -->
+
+
+
+
+<!-- about -->
+    <section id="about" class="pb-4">
+<div class="container-fluid pt-4">
+  <!-- <h3 class="text-center text-light">ABOUT US</h3> -->
+  <!-- <hr \ class="w-25 m-auto mb-5"> -->
+
+  
+<div class="row m-2">
+<div class="col-sm-12 col-12 col-md-4 col-lg-4 py-4">
+  <img src="img/rest.jpg" alt= "" class="img-fluid" id="rest">
+</div>
+<div class="col-sm-12 col-12 col-md-4 col-lg-4">
+  <p class="p-3 para-text1 text-light"> description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda amet enim quas. Tenetur, eligendi recusandae dolor minima voluptates earum. Qui necessitatibus facere, corrupti ipsum ab quisquam asperiores nisi consequatur veritatis.</p>
+</div>
+<div class="col-sm-12 col-12 col-md-4 col-lg-4" id="reach">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250436.58636078943!2d75.67072414989701!3d11.256138716743143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1659507622426!5m2!1sen!2sin" width="100%" height="100%"
+   style="border:0;" allowfullscreen=""
+   loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+
+</div>
+    </section>
+<!-- end of about -->
+
+<!-- serveices -->
+
+
+
+    <section id="services" class="pt-5">
+  <div class="container-fluid">
+    <!-- <h3 class="text-center">SERVICES</h3> -->
+    <!-- <hr \ class="w-25 m-auto mb-3"> -->
+    <div class="row">
+
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 p-5">
+  <h5 class="text-center mt-3">Set your evnets more delicious</h5>
+  <hr \ class="w-75 m-auto mb-5">
+<p class="fw-bold mt-4 " id="contactform">Contact us for catering services</p>
+<!-- <hr \ class="w-25  mb-4"> -->
+<div class="d-flex justify-content-center">
+<form class="row g-2">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Phone</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Name</label>
+    <input type="text" class="form-control" id="inputPassword">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Landmark</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Place</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputZip" class="form-label">Function date</label>
+    <input type="date" class="form-control" id="inputZip1">
+  </div>
+  <div class="col-12 d-flex justify-content-center mt-4">
+    <button type="submit" class=" btn-dark " id="submit">Sent</button>
+  </div>
+</form>
+</div>
+</div>
+
+
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 p-5">
+  <h5 class="text-center mt-3">Food on doors</h5>
+  <hr \ class="w-75 m-auto mb-3">
+  <div class="d-flex justify-content-center py-4 px-1 ">
+  <img src="img/delivery.png" alt="" class="img-fluid" id="delivery">
+
+</div>
+<div class="d-flex justify-content-center">
+<a class="btn-dark text-center p-2 mt-4" id="orderplace" href="#order">Place your order</a>
+
+</div></div>
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 p-3">
+  <h5 class="text-center mt-5">We the party peoples</h5>
+  <hr \ class="w-75 m-auto mb-5">
+<img src="img/party.jpg" alt="" class="img-fluid" id="partypeoples">
+
+<p class="m-3 para-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur excepturi vitae soluta, provident quasi odio voluptatibus.
+   Voluptas quibusdam consequuntur aspernatur veritatis, vero obcaecati amet similique reprehenderit optio tenetur, illo aliquam.</p>
+
+
+ <p class="fw-bold m-5 d-flex justify-content-center" id="eventgallery"><a href="#eventimage" class="btn btn-dark eventbtn">   Event Gallery </a></p>
+
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- event gallery -->
+  <div class="container eventgallery mb-4" id="eventimage">
+    <div class="row g-2" id="events">
+      <div class="close"><i class="bi bi-x"></i></div>
+      <div class="col-md-4 gal">
+        <img src="img/ev1.jpg" alt="" class="img-fluid gallery">
+      </div>
+      <div class="col-md-4 gal">
+        <img src="img/ev2.jpg" alt="" class="img-fluid gallery">
+      
+      </div>
+      <div class="col-md-4 gal">
+        <img src="img/ev3.jpg" alt="" class="img-fluid gallery">
+      
+      </div>
+      <div class="col-md-4 gal">
+        <img src="img/ev4.jpg" alt="" class="img-fluid gallery">
+      
+      </div>
+      <div class="col-md-4 gal">
+        <img src="img/ev5.jpg" alt="" class="img-fluid gallery">
+      
+      </div>
+      <div class="col-md-4 gal">
+        <img src="img/ev6.jpg" alt="" class="img-fluid gallery">
+      
+      </div>
+      </div>
+  </div>
+
+
+
+
+<!-- testimonials -->
+
+<div id="testimonial">
+  <h3 class="text-center pt-4 text-light"> 
+    "What Others Saying..."
+  </h3>
+<div class="swiper mySwiper ">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+    <div class="swiper-slide">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></div>
+    <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></div>
+    <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></div>
+    <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></div>
+    <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></div>
+    <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div></div>
+    <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div></div>
+  <div class="swiper-slide">  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="img/ev2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div></div>
+  </div>
+</div>
+</div>
+<!-- end testminials' -->
+<section id="order">
+
+
+<div class="container-fluid center mt-5">
+  <div class="row">
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex  justify-content-center p-3">
+  
+      <div class="card1">
+        <img src="img/f14.jpg" alt="Denim Jeans">
+        <div class="content">
+        <h5>IDLI & VADA</h5>
+        <p class="price">$19.99</p>
+        <p></p>
+        <p><button>ORDER</button></p>
+      </div>
+      </div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center p-3">
+
+  
+  <div class="card1">
+    <img src="img/f3.jpg" alt="Denim Jeans" >
+    <div class="content">
+    <h5>MEALS</h5>
+    <p class="price">$19.99</p>
+    <p></p>
+    <p><button>ORDER</button></p>
+  </div>
+  </div>
+</div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center p-3">
+    
+    <div class="card1">
+      <img src="img/f4.jpg" alt="Denim Jeans">
+      <div class="content">
+      <h5> CHICKEN BIRIYANI</h5>
+      <p class="price">$19.99</p>
+      <p></p>
+      <p><button>ORDER</button></p>
+    </div>
+    </div>
+
+  </div> 
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center p-3">
+   
+    <div class="card1">
+      <img src="img/f5.jpg" alt="Denim Jeans">
+      <div class="content">
+      <h5>HYDARBADI BIRIYANI</h5>
+      <p class="price">$19.99</p>
+      <p></p>
+      <p><button>ORDER</button></p>
+    </div>
+
+
+    </div>
+  </div>
+
+  
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center p-3">
+    
+    <div class="card1">
+      <img src="img/f13.jfif" alt="Denim Jeans" >
+      <div class="content">
+      <h5>POROTTO BEEF</h5>
+      <p class="price">$19.99</p>
+      <p></p>
+      <p><button>ORDER</button></p>
+    </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center p-3">
+  
+    <div class="card1">
+      <img src="img/f7.jpg" alt="Denim Jeans">
+      <div class="content">
+      <h5>PUTU AND KADALA</h5>
+      <p class="price">$19.99</p>
+      <p></p>
+      <p><button>ORDER</button></p>
+    </div>
+  </div></div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center p-3">
+ 
+    <div class="card1">
+      <img src="img/f8.jpg" alt="Denim Jeans">
+      <div class="content">
+      <h5>GHEE ROAST</h5>
+      <p class="price">$19.99</p>
+      <p></p>
+      <p><button>ORDER</button></p>
+    </div></div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3  d-flex justify-content-center p-3">
+ 
+    <div class="card1">
+      <img src="img/f9.jpg" alt="Denim Jeans">
+      <div class="content">
+      <h5>KUZHI MANDHI</h5>
+      <p class="price">$19.99</p>
+      <p></p>
+      <p><button>ORDER</button></p></div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+</section>
+
+
+
+
+<!-- end of order -->
+
+<!-- login -->
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" id="input1" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="input2" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!-- endlogin -->
+
+<!-- registration-->
+
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+    </div>
+
+    <div class="container1">
+      <label for="mail"><b>Email</b></label>
+      <input type="mail" placeholder="Email " name="mail" id="input4" required>
+
+      <label for="ph"><b>Phone</b></label>
+      <input type="number" placeholder="Enter phone" name="ph" id="input5" required>
+
+
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" id="input1" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="input2" required>
+      
+      <label for="pswre"><b>Password</b></label>
+      <input type="password" placeholder="Re Enter Password" name="pswre" id="input3" required>
+        
+      <button type="submit">Login</button>
+   
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+
+<!-- end -->
+
+<!-- footer -->
+<footer>
+<div class="container-fluid">
+<div class="row" id="footer">
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 p-5"><img src="img/footer.jpg" alt="" class="img-fluid"></div>
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-center p-4 footercopy"><h5 class="text-center  text-light ">copyright owned respecticve owner @aminnk0123452gmail.com</h5></div>
+<div class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-center p-4"> 
+<a href=""><i class="bi bi-instagram"></i></a>
+<a href=""><i class="bi bi-facebook"></i></a>
+<a href=""><i class="bi bi-whatsapp"></i></a>
+<a href=""><i class="bi bi-twitter"></i></a>
+
+</div>
+
+  
+
+</div>
+
+</div>
+</footer>
+<!-- end -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+  
+<script src="script.js">
+  
+</script>
+  </body>
+</html>
